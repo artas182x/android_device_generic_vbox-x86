@@ -15,8 +15,8 @@ TARGET_BOOTIMAGE_USE_EXT2 := true
 BOARD_CACHEIMAGE_PARTITION_SIZE := 268435456
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 
-TARGET_KERNEL_SOURCE := prebuilts/qemu-kernel/x86
-TARGET_KERNEL_CONFIG := cyanogenmod_emulatorx86_x86_defconfig
+#TARGET_KERNEL_SOURCE := prebuilts/qemu-kernel/x86
+#TARGET_KERNEL_CONFIG := cyanogenmod_emulatorx86_x86_defconfig
 TARGET_PREBUILT_KERNEL := prebuilts/qemu-kernel/x86/kernel-vbox
 
 # For VirtualBox and likely other emulators
